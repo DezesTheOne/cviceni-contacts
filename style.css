@@ -3,12 +3,17 @@
 }
 
 .contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #cfe1e7;
   padding: 5px;
   border-radius: 10px;
   font-family: monospace;
 }
+
 .contact {
+  display: flex;
   background-color: #f3f3f3;
   border-radius: 10px;
   box-shadow: 0 0 15px #446d8059;
@@ -16,7 +21,9 @@
   margin: 15px;
   width: 400px;
 }
+
 .photo {
+  display: flex;
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -24,13 +31,18 @@
 }
 
 .info {
+  flex-grow: 1;
   margin-left: 20px;
 }
+
 .info p {
   font-size: 22px;
 }
 
 .buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   padding: 0 10px;
 }
 
